@@ -3,7 +3,7 @@ Team Members:
 	-Jahesh Davodra (jdavo064)
 	-Amar Abdisamed (amar.a01)
 	-Zakariya Salad (zsala006)
-	-Hajira Mohamed ()
+	-Hajira Mohamed (300018158)
 	- Annie Sultan ()
 Team Name/Organization Name: Caring Coders
 Company: StudentHelp inc
