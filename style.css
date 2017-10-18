@@ -1,52 +1,16 @@
-header{ 
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.home-section{
 	background-image: url("tree.png");
 	background-size: cover; 
 	height: 100vh; 
 	padding: 0;
 	margin: 0;
 	top:0;
-}
-
-body{
-	margin: 0;
-	padding: 0;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-	background-color: #008080; opacity: 0.8; filter: alpha(opacity=50);
-	position: fixed;
-	width: 100%;
-	top: 0;
 	
-}
-
-li {
-    float: right;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #008080;
-}
-
-li.header-logo{
-	float: left;
-	cursor: pointer;
-}
-	
-
-.home-section full screen{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -54,8 +18,50 @@ li.header-logo{
 	color: #008080;
 }
 
+.topnav{
+	width: 100%;
+	line-height: 30px;
+}
+
+.topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	background-color: #008080; opacity: 0.8; filter: alpha(opacity=60);
+	position: fixed;
+	height: 60px;
+	width: 100%;
+	top: 0;
+	
+}
+
+.topnav ul li {
+    float: right;
+	padding: 0px;
+	margin: 0px;
+}
+
+.topnav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav ul li a:hover {
+    background-color: #blue;
+	transition: all in ease out 0.5s;
+}
+
+.topnav ul li.header-logo{
+	float: left;
+	cursor: pointer;
+}
+
 button {
-    background-color: #008080; opacity: 0.8; filter: alpha(opacity=50); /* Teal */
+    background-color: #008080; opacity: 0.8; filter: alpha(opacity=60); /* Teal */
     border: none;
     color: white;
     padding: 20px;
@@ -72,8 +78,8 @@ button {
 	
 	
 }
+
 button:hover {
     background-color: #008080; /* Green */
     color: white;
 }
-
