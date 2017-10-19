@@ -18,15 +18,9 @@ h1 {
 
 
 .home-section{
-<<<<<<< HEAD
 	background-image: url("good.png");
 	background-size: cover; 
 	height: 100vh; 
-=======
-	background-image: url("tree.png");
-	background-size: cover;
-	height: 100vh;
->>>>>>> b0e1e67afb8ffb346963670e3bee84cd75a3ea2d
 	padding: 0;
 	margin: 0;
 	top:0;
@@ -95,12 +89,9 @@ button {
 
 	-webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
-
-
 }
 
 button:hover {
-<<<<<<< HEAD
     background-color: honeydew; /* Teal */
 	color: #008080;
 	border-style: solid;
@@ -118,10 +109,8 @@ NEXT STUFF
 
 
 */
-=======
-    background-color: #008080; /* Green */
+    background-color: #008080; /* Teal */
     color: white;
 }
 
 /* FEATURES PAGE **************************/
->>>>>>> b0e1e67afb8ffb346963670e3bee84cd75a3ea2d
