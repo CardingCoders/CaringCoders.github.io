@@ -1,10 +1,24 @@
+
+/*
+HOME PAGE CSS STUFF
+
+
+
+
+*/
 body{
 	margin: 0;
 	padding: 0;
 }
 
+h1 {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
 .home-section{
-	background-image: url("tree.png");
+	background-image: url("good.png");
 	background-size: cover; 
 	height: 100vh; 
 	padding: 0;
@@ -15,12 +29,12 @@ body{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	color: #008080;
+	color: honeydew;
 }
 
 .topnav{
 	width: 100%;
-	line-height: 30px;
+	line-height: 30px;	
 }
 
 .topnav ul {
@@ -63,7 +77,7 @@ body{
 button {
     background-color: #008080; opacity: 0.8; filter: alpha(opacity=60); /* Teal */
     border: none;
-    color: white;
+    color: honeydew;
     padding: 20px;
     text-align: center;
     text-decoration: none;
@@ -80,6 +94,20 @@ button {
 }
 
 button:hover {
-    background-color: #008080; /* Green */
-    color: white;
+    background-color: honeydew; /* Teal */
+	color: #008080;
+	border-style: solid;
+	border-color: solid,2px,#008080;
 }
+
+
+/*
+NEXT STUFF
+
+
+
+
+
+
+
+*/
