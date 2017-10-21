@@ -139,19 +139,3 @@ NEXT STUFF
   margin-top:20px;
   margin-right:20px;
 }
-
-body {
-  margin:0;
-  font-family: 'Roboto', sans-serif;
-}
-
-.clear-floats {
-  clear:both;
-}
-
-.container {
-  max-width:960px;
-  width:calc(100% - 20px);
-  padding:0 10px;
-  margin:0 auto;
-}
