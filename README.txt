@@ -4,7 +4,7 @@ Team Members:
 	-Amar Abdisamed (amar.a01)
 	-Zakariya Salad (zsala006)
 	-Hajira Mohamed (300018158)
-	- Annie Sultan ()
+	-Qurt ul ain Sultan (qsult068)
 Team Name/Organization Name: Caring Coders
 Company: StudentHelp inc
 Product: GeTTogether(App)
