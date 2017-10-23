@@ -2,9 +2,6 @@
 /*
 HOME PAGE CSS STUFF
 
-
-
-
 */
 body{
 	margin: 0;
@@ -16,9 +13,8 @@ h1 {
 }
 
 
-
 .home-section{
-	background-image: url("good.png");
+	background-image: url("good.jpg");
 	background-size: cover;
 	height: 100vh;
 	padding: 0;
@@ -210,7 +206,7 @@ img.resize {
 }
 
 
-###### Contact page #######
+/* CONTACT PAGE */
 
 input[type="text"], {
     width: 100%;
@@ -236,6 +232,10 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #45a049;
 }
+
+
+
+/* TEAM PAGE*/
 .team-section{
 	background-size: cover;
 	padding: 100;
