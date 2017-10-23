@@ -125,15 +125,19 @@ NEXT STUFF
 }
 
 /* FEATURES PAGE **************************/
+
+
 body, html {
   width: 100%;
   height: 100%;
   margin: 0;
+
 }
 
 .container {
   width: 100%;
   height: 100%;
+
 }
 
 .leftpane {
@@ -141,7 +145,9 @@ body, html {
     height: 100%;
     float: left;
     background-color: #008080;
-    border-collapse: collapse;
+    border-collapse: separate;
+		border-spacing: 1px 10px;
+
 }
 
 .middlepane {
@@ -149,7 +155,11 @@ body, html {
     height: 100%;
     float: left;
     background-color: #008080;
-    border-collapse: collapse;
+    border-collapse: separate;
+		border-spacing: 1px 10px;
+
+
+
 }
 
 .rightpane {
@@ -158,7 +168,9 @@ body, html {
   position: relative;
   float: right;
   background-color: #008080;
-  border: collapse;
+  border-collapse: separate;
+	border-spacing: 1px 10px;
+
 }
 
 .toppane {
@@ -166,6 +178,33 @@ body, html {
   height: 100px;
   border-collapse: collapse;
   background-color: #008080;
+
+
+
+
+}
+.h2{
+	font-family: 'Sigmar One', cursive;
+	font-size: 20px;
+
+}
+.p1 {
+	font-family: 'Varela', sans-serif;
+	font-size: 20px;
+	color: #ffffff;
+
+}
+.p2 {
+	font-family: 'Varela', sans-serif;
+	font-size: 20px;
+
+
+}
+.h1 {
+
+	font-family: 'Sigmar One', cursive;
+	font-size: 55px;
+	text-align: center;
 }
 img.resize {
   width:200px;
@@ -306,7 +345,7 @@ input[type=submit]:hover {
 	background-position:center;
 	transition: 0.5s;
 
-}	
+}
 .person3:hover{
 	background-size:140%;
 }
