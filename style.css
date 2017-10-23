@@ -92,9 +92,7 @@ button {
 button:hover {
     background-color: honeydew; /* Teal */
 	color: #008080;
-	/* border-style: solid; */
 	outline: solid, 2px, #008080;
-	/* border-color: solid,-2px,#008080; */
 	outline-offset: 200px;
 }
 
