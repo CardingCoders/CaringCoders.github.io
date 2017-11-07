@@ -18,8 +18,11 @@ p {
 	font-family: "Montserrat", sans serif;
 }
 
-.home-section{
+.home-section {
 	background-image: url("good.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
 	padding: 0;
@@ -32,13 +35,10 @@ p {
 	align-items: center;
 	color: honeydew;
 	
-	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	
 }
 
-.topnav{
+.topnav {
 	width: 100%;
 	line-height: 30px;
 }
@@ -114,6 +114,7 @@ li a:hover {
 .about {
 	padding-left: 50px;
 	padding-right: 50px;
+	color: #008080; 
 }
 
   
