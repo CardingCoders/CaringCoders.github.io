@@ -12,6 +12,9 @@ h1 {
     font-family: "Montserrat", sans-serif;
 }
 
+h2 {
+	font-family: "Montserrat", sans serif;
+}
 
 .home-section{
 	background-image: url("good.jpg");
@@ -26,6 +29,11 @@ h1 {
 	justify-content: center;
 	align-items: center;
 	color: honeydew;
+	
+	 background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .topnav{
@@ -54,7 +62,7 @@ h1 {
 
 .topnav ul li a {
     display: block;
-    color: white;
+    color: honeydew;
 	font-family: "Montserrat", sans-serif;
     text-align: center;
     padding: 14px 16px;
@@ -86,8 +94,8 @@ button {
 }
 
 button:hover {
-    background-color: honeydew; /* Teal */
-	color: #008080;
+    background-color: honeydew;
+	color: #008080;  /*TEAL*/
 	outline: solid, 2px, #008080;
 	outline-offset: 200px;
 }
@@ -97,26 +105,25 @@ li a:hover {
     color: white;
 	border-bottom: 2px solid;
 	font-size:20px;
-
 }
 
+/*ABOUT PAGE*******************************/
 
+.about topnav{
+    /* The image used */
+    background-image: url("good.jpg");
 
+    /* Set a specific height */
+    min-height: 100vh; 
 
-
-/*
-NEXT STUFF
-
-
-
-
-
-
-
-*/
-    background-color: #008080; /* Teal */
-    color: white;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+  
 
 /* FEATURES PAGE **************************/
 
