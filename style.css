@@ -2,6 +2,7 @@
 HOME PAGE CSS STUFF
 
 */
+
 body{
 	margin: 0;
 	padding: 0;
@@ -462,4 +463,22 @@ input[type=submit]:hover {
 	justify-content: center;
 	align-items: center;
 	color: honeydew;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/*************CONTACT **************/
+
+.contact{
+	font-family: "Montserrat", sans serif;
+}
+
+.form{
+	font-family: "Montserrat", sans serif;
+}
+
+.input {
+	font-family: "Montserrat", sans serif;
 }

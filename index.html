@@ -10,12 +10,12 @@
 
 
 <body>
-	<div class="home-section" id="home-section" align = center">
+	<div class="home-section" id="home-section" align = center" action="/action_page.php">
 		<div class="topnav" id="myTopnav"> 
 			<ul>
 				<li class='header-logo'><img src="logo_get.png" style="width:130px;height:50px;"></img><li>
 				<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-				<li><a href="contact.html">CONTACT</a></li>
+				<li><a href="#contact">CONTACT</a></li>
 				<li><a href="team.html">TEAM</a><li>
 				<li><a href="pricing.html">PRICING</a><li>
 				<li><a href="features.html">FEATURES</a></li>
@@ -51,7 +51,7 @@
 		 </font>
     </div>
 
-
+	
     <!-- <div id="features" class="topnav" align=center> -->
         <!-- <h2> Own the Experience </h2> -->
         <!-- <p> features stuff </p> -->
@@ -74,5 +74,38 @@
         <!-- <h2> The Team </h2> -->
         <!-- <iframe src="team.html"></iframe> -->
     <!-- </div> -->
+	
+	
+	<div id="contact" class="topnav" align=center>
+		<form id = 'form' action="/action_page.php" align = center>
+			<br>
+			<br>
+			<p>Name:</p>
+			<input type="text" name="name" value="">
+			<br> <br>
+			
+			
+			<p>Email Address:</p>
+			<input type="text" name= "Email Address" value "">
+			<br> <br>
+			
+			
+			<p>Phone Number: </p>
+			<input type= "text" name= "Phone number" value "">
+			<br> <br>
+			
+			
+			<p>What's your Issue: </p>
+			<input type= "text" name= "Issue" value "">
+			<br> <br>
+			
+			<button type="button" align = center>
+				Submit
+			</button>
+		</form>
+
+		<p>By clicking Submit you are agreeing to recieve email notifications based on our products updates".</p>
+	</div>
+	
 
 </body>
