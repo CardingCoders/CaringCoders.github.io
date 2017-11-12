@@ -117,12 +117,15 @@ li a:hover {
 /*ABOUT PAGE*******************************/
 
 .about {
-	padding-left: 50px;
-	padding-right: 50px;
-	color: #008080; 
+	padding-left: 0px;
+	padding-right: 0px;
+	color: #008080;
+	height: 100vh;
 }
-
-  
+.123 {
+	z-index: -1;
+}
+ 
 
 /* FEATURES PAGE **************************/
 
@@ -324,7 +327,7 @@ input[type=submit]:hover {
 	position: relative;
 	height: 400px;
 	width: 300px;
-	background-size: 160%;
+	background-size: 130%;
 	float: left;
 	margin-left: 75px;
 	background-position:center;
@@ -332,7 +335,7 @@ input[type=submit]:hover {
 
 }
 .person5:hover{
-	background-size:140%;
+	background-size:100%;
 }
 .person5:after{
 	position: absolute;
