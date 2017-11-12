@@ -1,0 +1,37 @@
+Overall look and feel of GETTOGETHER:
+	
+The overall look and feel of GETTOGETHER should be warm and comforting. Should be a single page scroll website.
+
+Colours
+========
+For GETTOGETHER, we chose colours that reflect a calm and homey that you will gain from joining GETTOGETHER
+
+- HONEYDEW
+- TEEL
+- WHITE-TEEL gradient
+
+Iconography
+===========
+Icons we are using are mainly 2D icons in order make the webpage minimize distractions
+
+We include the GETTOGETHER icon on the navigation bar, this icon sends the message to the veiwer that GETTOGETHER promotes diversity
+
+Typography
+==========
+We will be using Montserrat from Google Fonts.
+
+Links
+=====
+Our links are animated and change color to white when hovered upon
+
+Buttons
+=======
+Buttons will animated as well and change color from teel to white when hovered upon
+
+Pictures:
+
+Team member pictures will be animated so that when they are hovered upon it will change zoom and transparancy and display text over it
+
+
+
+
