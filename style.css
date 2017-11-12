@@ -406,12 +406,12 @@ input[type=submit]:hover {
 	height: 400px;
 	width: 300px;
 	float: left;
-	background-size: 160%;
+	background-size: 145%;
 	background-position: center;
 	transition: 0.5s;
 }
 .person1:hover{
-	background-size:140%;
+	background-size:135%;
 }
 .person1:after{
 	position: absolute;
@@ -452,47 +452,12 @@ input[type=submit]:hover {
     background-repeat: no-repeat;
 }
 
-.person1{
-	position: relative;
-	height: 400px;
-	width: 300px;
-	float: left;
-	background-size: 160%;
-	background-position: center;
-	transition: 0.5s;
-}
-.person1:hover{
-	background-size:140%;
-}
-.person1:after{
-	position: absolute;
-	top:90%;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	white-space:pre-wrap;
-	overflow:hidden;
-	background-color: rgba(0,0,0,0.6);
-	color:#fff;
-	padding:0 8px;
-	content:attr(data-text);
-	transition: 0.5s;
-}
-.person1:hover:after{
-	top: 0;
-	padding: 8px;
-	background-color: rgba(0,0,0,0.6);
-}
-.person1:first-line{
-	color: #fff;
-	font-weight: bold;
-	font-size: 1.5em;
-}
+
 .person2{
 	position: relative;
 	height: 400px;
 	width: 300px;
-	background-size: 160%;
+	background-size: 140%;
 	float: left;
 	margin-left: 75px;
 	margin-right: 75px;
@@ -501,7 +466,7 @@ input[type=submit]:hover {
 
 }
 .person2:hover{
-	background-size:140%;
+	background-size:120%;
 }
 .person2:after{
 	position: absolute;
