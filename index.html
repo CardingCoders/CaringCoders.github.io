@@ -6,25 +6,26 @@
     <title> Get Connected today and GeTTogether! </title>
 	<link href ="style.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </head>
 
 
 <body>
-	<div class="home-section" id="home-section" align = center" action="/action_page.php">
+	
+	<div id="home-section" class="home-section" align = center" action="/action_page.php">
 		<div class="topnav" id="myTopnav"> 
 			<ul>
 				<li class='header-logo'><img src="mockups/images/logo_get.png" style="width:130px;height:50px;"></img><li>
-				<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 				<li><a href="#contact">CONTACT</a></li>
-				<li><a href="team.html">TEAM</a><li>
-				<li><a href="pricing.html">PRICING</a><li>
+				<li><a href="#team">TEAM</a><li>
+				<li><a href="#pricing">PRICING</a><li>
 				<li><a href="#features">FEATURES</a></li>
 				<li><a href="#about">ABOUT</a></li>
 				<li><a href="#login">LOGIN</a></li>
 			</ul>
 		</div>
 		
-		<h1 align=center style ="font-size:100px">
+		<h1 class = "title1" align=center style ="font-size:100px">
 			DO MORE
 		</h1>
 		<button type="button" action="/action_page.php" align = center>
@@ -34,7 +35,7 @@
 
 	<!-- TO BE COMBINED IN FINAL VERSION -->
 
-    <div id="about" class="about" align=center>
+    <div id="about" class="topnav" align=center>
         <br>
 		<br>
 		<br>
@@ -54,6 +55,7 @@
 		 </div>
     </div>
 
+	<div class = "strip1"> </div>
 	
     <div id="features" class="topnav" align=center style ="height: 100vh; background-color: white">
 		<br>
@@ -79,10 +81,6 @@
 			</div>
         </div>
     </div>
-	
-	<div class = "strip1">
-		
-	</div>
 
     <div id="pricing" class="topnav" align=center>
 		<h1>PRICING STUFF<h1>
@@ -97,16 +95,16 @@
 	</div>
 	<div class = "team-section" id = "team-section" align = center>
 	    <div class = "three-people" align = center>
-			<div class = "person4" style = "background-image:url(jahesh.png)" data-text="Jahesh Davodra		
-Co-Founder CEO
+			<div class = "person4" style = "background-image:url(jahesh.png)" data-text="Jahesh Davodra
+Co-Founder - CEO
 			
 He is in UOttawa computer science. Call him here. This is his number. He like eating Swimming, skating, dancing, cooking. That is all about Jahesh Davodra!!!">
 			
 			</div>
 			<div class = "person5" style = "background-image:url(zakariya.png)" data-text="Zakariya Salad 
-Co-Founder Lead Developer
+Co-Founder - CTO
 
-He is in UOttawa Software Engineering. Call him here. This is his number. He like eating Swimming, skating, dancing, cooking. That is all about Jahesh Davodra!!!">
+He is in UOttawa Software Engineering. Call him here. This is his number. He likes eating Swimming, skating, dancing, cooking. That is all about Zakariya Salad!!!">
 			
 			</div>
 		</div>
@@ -116,19 +114,20 @@ He is in UOttawa Software Engineering. Call him here. This is his number. He lik
 	<div class = "team-section" id = "team-section" align = center>
 	    <div class = "three-people" align = center>
 			<div class = "person1" style = "background-image:url(jahesh.png)" data-text="Amar
-Co-Founder CTO
+Co-Founder
+
 He is in UOttawa computer science. Call him here. This is his number. He like eating Swimming, skating, dancing, cooking. That is all about Jahesh Davodra!!!">
 			
 			</div>
 			<div class = "person2" style = "background-image:url(jahesh.png)" data-text="Hajira
-			Co-Founder UX designer
+Co-Founder - UX designer
 			
 He is in UOttawa computer science. Call him here. This is his number. He like eating Swimming, skating, dancing, cooking. That is all about Jahesh Davodra!!!">
 			
 			</div>
 			
 			<div class = "person3" style = "background-image:url(jahesh.png)" data-text="Annie
-			Co-Founder
+Co-Founder
 He is in UOttawa computer science. Call him here. This is his number. He like eating Swimming, skating, dancing, cooking. That is all about Jahesh Davodra!!!">
 			
 			</div>
@@ -172,5 +171,20 @@ He is in UOttawa computer science. Call him here. This is his number. He like ea
 		</div>
 	</div>
 	
+	<script>
+		$('a[href*=#]:not([href=#])').click(function() {
+		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+			|| location.hostname == this.hostname) {
 
+			var target = $(this.hash);
+			target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			if (target.length) {
+				$('html,body').animate({
+                scrollTop: target.offset().top
+            }, 1000);
+				return false;
+			}
+		}
+		});
+	</script>
 </body>

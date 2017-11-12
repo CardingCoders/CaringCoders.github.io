@@ -2,7 +2,6 @@
 HOME PAGE CSS STUFF
 
 */
-
 body{
 	margin: 0;
 	padding: 0;
@@ -24,6 +23,14 @@ p {
 	font-family: "Montserrat", sans serif;
 }
 
+.title1 {
+	transform-style: preserve-3d;
+	transition: all 2s ease-in-out;
+}
+.title1:hover {
+	transform: rotateY(360deg);
+}
+
 .home-section {
 	background-image: url("mockups/images/good.jpg");
 	background-attachment: fixed;
@@ -33,13 +40,41 @@ p {
 	height: 100vh;
 	padding: 0;
 	margin: 0;
-	top:0;
+	top: 0;
 
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	color: honeydew;
+	
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+            animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 .topnav {
@@ -64,23 +99,33 @@ p {
 .topnav ul li {
     float: right;
 	padding: 0px;
-	margin: 0px;
+	margin-right: 10px;
 }
 
 .topnav ul li a {
     display: block;
     color: honeydew;
 	font-family: "Montserrat", sans-serif;
+	font-size: 15px
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
+	transition: 0.3s ease;
 
+}
 
 .topnav ul li.header-logo{
 	float: left;
 	cursor: pointer;
 }
+
+.topnav ul li a:hover {
+	border-top: 4px solid honeydew;
+	border-bottom: 4px solid honeydew;
+	padding: 6px 0;
+	font-size: 15px;
+}
+
 
 button {
     background-color: #008080; opacity: 0.9; filter: alpha(opacity=80); /* Teal */
@@ -107,16 +152,11 @@ button:hover {
 	outline-offset: 200px;
 }
 
-li a:hover {
-	transition: all 0.5s;
-    color: white;
-	border-bottom: 2px solid;
-	font-size:20px;
-}
+
 
 /*ABOUT PAGE*******************************/
 
-.about {
+#about {
 	padding-left: 0px;
 	padding-right: 0px;
 	color: #008080;
@@ -529,6 +569,7 @@ input[type=submit]:hover {
 
 .contact{
 	font-family: "Montserrat", sans serif;
+	height: 100vh;
 }
 
 .form{
